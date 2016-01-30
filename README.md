@@ -14,11 +14,12 @@ search name get id
     + 2014级
     + 2015级
     + 2013级
+    + 2012级
 5. Todo:
     + 2009级
     + 2010级
     + 2011级
-    + 2012级
+    ~~+ 2012级~~
 6. 感谢:
     + [@2bab](https://github.com/2BAB)
     + [@zxc0328](https://github.com/zxc0328)
