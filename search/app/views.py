@@ -20,7 +20,7 @@ def search():
     form = SearchForm()
     id = '请查询'
     if form.validate_on_submit():
-        pool = redis.ConnectionPool(host='121.41.6.148', port=6379, db=0)
+        pool = redis.ConnectionPool(host='host', port=port, db=0)
         r = redis.Redis(connection_pool = pool)
         stu = form.stu.data
         id = r.get(stu)
