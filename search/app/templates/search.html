@@ -1,0 +1,16 @@
+<html>
+    <head><title>CCNU搜索</title></head>
+    <body>
+        <div class='form'>
+            <form method='post'>
+                {{ form.hidden_tag() }}
+                {{ form.stu }}
+                {{ form.submit }}
+            </form>
+        </div>
+        <hr/>
+        <div class='id'>
+            <p>该同学的id是:<strong>{{ id }}</strong></p>
+        </div>
+    </body>
+</html>
